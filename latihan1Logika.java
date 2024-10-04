@@ -22,6 +22,6 @@ public class latihan1Logika {
         } else {
             System.out.println("Bilangan terbesar adalah: " + bil3);
         }
-
+        
     }
 }
