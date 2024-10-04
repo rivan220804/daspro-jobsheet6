@@ -47,7 +47,7 @@ public class Latihan3 {
         }
 
         // Output harga sepatu
-        System.out.println("Harga sepatu: " + harga);
+        System.out.println("Harga sepatuu: " + harga);
         
         
     }
