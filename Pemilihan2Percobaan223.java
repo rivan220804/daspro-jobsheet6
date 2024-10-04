@@ -82,6 +82,6 @@ public class Pemilihan2Percobaan223 {
             } else {
                 System.out.println("Member tidak valid");
             }
-            System.out.println("-----------------------------------------");
+            
     }   
 }
