@@ -25,6 +25,8 @@ public class Pemilihan2Percobaan223 {
         absen.nextLine();
         System.out.print("Apakah punya member (y/n) ? = ");
         member = absen.nextLine();
+        System.out.println("Jenis pembayaran (Qris/nonQris) ? = ");
+        pembayaran = absen.nextLine();
         System.out.println("-------------------------");
         
         if (member.equalsIgnoreCase("y")) {// menggunakan equalsIgnoreCase untuk menggunakan string 
@@ -69,6 +71,11 @@ public class Pemilihan2Percobaan223 {
                     System.out.println("Masukkan pilihan menu dengan benar");
                     return; // Mengentikan eksekusi lebih lanjut jika pilihan salah
                 }
+                    // Potongan harga untuk pembayaran QRIS
+                    if (pembayaran.equalsIgnoreCase("QRIS")) {
+                    totalBayar -= 1000; // Potongan Rp. 1.000
+                    System.out.println("Potongan Rp. 1.000 untuk pembayaran QRIS diterapkan.");
+
                 //menghitung total bayar
                 System.out.println("Total bayar = " + harga);
 
