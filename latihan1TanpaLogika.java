@@ -2,7 +2,7 @@ import java.util.Scanner;
 /**
  * latihan1
  */
-public class latihan1 {
+public class latihan1TanpaLogika {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
