@@ -9,7 +9,7 @@ public class Latihan2 {
 
         double diskon = 0;
         
-        System.out.print("Masukkan jenis buku (kamus/novel/lainnya): ");
+        System.out.print("Masukkan jenis buku (kamus/novel/lainnya selain kamus dan novel): ");
         String jenisBuku = sc.nextLine();
         System.out.print("Masukkan jumlah buku: ");
         int jumlahBuku = sc.nextInt();
