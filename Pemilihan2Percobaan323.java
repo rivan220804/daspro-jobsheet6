@@ -35,7 +35,7 @@ public class Pemilihan2Percobaan323 {
             gajiBersih = (int) (penghasilan - (pajak * penghasilan));
             System.out.print("Penghasil Bersih : " + gajiBersih);
         } else
-            System.out.println("Masukkan Kategori Salah ");
+            System.out.println("Masukkann Kategori Salah ");
     }
 }
     
